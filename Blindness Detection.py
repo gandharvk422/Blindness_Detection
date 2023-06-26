@@ -30,7 +30,7 @@ def perform_blindness_detection(img_path):
         print("The image indicates an abnormal eye.")
 
 # Path to the new image for blindness detection
-new_image_path = "Expressions/happy.jpg"
+new_image_path = "happy.jpg"
 
 # Perform blindness detection on the new image
 perform_blindness_detection(new_image_path)
